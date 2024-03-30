@@ -7,13 +7,9 @@ body {
   width: 100%;
   height: 100vh;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  display: flex;
-  flex-direction: column;
-  /* justify-content: space-between; */
-  align-items: center;
+  overflow-x: hidden;
 }
 .header {
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,12 +17,18 @@ body {
   background-color: rgb(31, 198, 198);
   color: white;
 }
-
+main {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .container {
-  width: 350px;
+  width: 400px;
   box-shadow: 0 0 10px 0 rgb(172, 169, 169);
   border-radius: 10px;
-  margin: 100px 10px;
+  margin: 0 20px;
 }
 .question-list {
   width: 100%;
